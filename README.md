@@ -45,7 +45,7 @@ require(randomForest)
 fitted_forest <- randomForest(total~lat + long + hour + wday + month, taxi, ntree = 80, sampsize=10000)
 fitted_forest
 Call:
- randomForest(formula = total ~ lat + long + hour + wday + month,      data = taxi, ntree = 80, sampsize = 10000) 
+ randomForest(formula = total ~ lat + long + hour + wday + month, data = taxi, ntree = 80, sampsize = 10000) 
                Type of random forest: regression
                      Number of trees: 80
 No. of variables tried at each split: 1
